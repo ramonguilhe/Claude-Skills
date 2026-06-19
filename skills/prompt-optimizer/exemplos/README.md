@@ -22,16 +22,21 @@ Análise profunda e **equilibrada** de uma obra: reconhecimento de gênero, comp
 Analisa o **autor através de duas ou mais obras**, não um livro isolado: assinatura autoral, obsessões recorrentes, análise filosófica do corpus, trajetória/evolução, forças e pontos cegos constantes, posicionamento, prospecto do que esperar da próxima obra, e uma nota como autor (0–100).
 **Use quando:** quer um retrato crítico de um autor a partir do conjunto da obra dele.
 
+### `agente-literario-gerador.txt` — Agente Literário (co-arquiteto + motor de geração)
+Trabalha a partir da **bible do projeto** para analisar e, sobretudo, **sugerir e construir** elementos narrativos: plants, tramas, subtramas, personagens, lugares, conceitos, objetos, símbolos, motivos, cenas e frases canônicas. Opera em dois modos (pré-produção / obra em andamento), com filtro anticlichê, variações (conservadora/moderada/ousada) e verificação de coerência. Alinhado à metodologia Obsidian: cada elemento gerado sai pronto para virar arquivo atômico e ser firmado na bible.
+**Use quando:** quer que alguém proponha e desenvolva material novo para o livro (não julgar, e sim gerar).
+
 ## Qual escolher
 
 | Você quer... | Prompt |
 |---|---|
 | Começar um livro do zero | `genese-do-livro-fase-0.txt` |
+| Gerar plants/tramas/personagens/lugares/conceitos | `agente-literario-gerador.txt` |
 | Leitura completa e equilibrada de uma obra | `critico-literario.txt` |
 | Só os defeitos de uma obra, sem suavizar | `critico-demolidor.txt` |
 | Avaliar o autor pelo conjunto + prospecto | `critico-de-autoria.txt` |
 
-Fluxo natural: **gênese** (criar) → escrever → **crítico multi-nicho** ou **demolidor** (revisar uma obra) → **crítico de autoria** (quando há mais de um livro). Os três se complementam — o multi-nicho dá o panorama, o demolidor estressa só as falhas, o de autoria sobe um nível e olha a carreira.
+Fluxo natural: **gênese** (criar) → **agente gerador** (povoar a bible com plants, tramas, personagens, lugares, conceitos) → escrever → **crítico multi-nicho** ou **demolidor** (revisar uma obra) → **crítico de autoria** (quando há mais de um livro). Os prompts se complementam — a gênese funda, o agente gera elementos, o multi-nicho dá o panorama, o demolidor estressa só as falhas, o de autoria sobe um nível e olha a carreira.
 
 ## Subpasta — produção em vault Obsidian
 
